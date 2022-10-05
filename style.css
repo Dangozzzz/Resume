@@ -1,0 +1,102 @@
+/* *   {
+    margin: 0px;
+    padding: 0px;
+
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: 400;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+    font-family: 'Roboto', sans-serif;
+
+
+    /* font: normal 16px 'Roboto', sans-serif; */
+}   
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+a:active{
+    color: blue;
+}
+
+
+a:visited{
+    color: gray
+}
+
+
+h2{
+    font-size: 20px;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+
+    box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+.info p{
+    color: #86898f;
+    margin: 0px;
+    font-style: italic;
+    /* text-transform: capitalize; */
+    /* text-decoration: overline; */
+    /* letter-spacing: 5px; */
+    margin-bottom: 20px;
+}
+
+
+
+.social{
+    background-color: wheat ;
+    padding: 15px 40px 10px 40px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 20px;
+}
+
+.container{
+    max-width:  750px;
+    margin: auto;
+    
+}
+
+
+.box-model > div{
+    float: left;
+    background-color: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+/* Свойство одной линии  */
+    box-sizing: border-box;
+}
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background-color: bisque;
+    border-radius: 30px;
+    border: 3px solid black;
+}
