@@ -7,7 +7,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+.Info {
+    display: grid;
+    grid-template-columns: 420px;
+    background-color: rgb(127, 192, 248);
 
+    border-right: 3px solid rgb(87, 87, 87);
+    border-bottom: 3px solid rgb(87, 87, 87);;
+
+
+}
+
+.Info h2:hover {
+    opacity: 0.9;
+    background-color: #0a9405;
+   
+    
+}
+
+.Info h3 {
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Info a {
+    align-items: center;
+    text-align: center;
+    margin:20px 100px 0px 100px;
+    /* padding-top: 10px; */
+    text-decoration: none;
+    color: rgb(110, 92, 92);
+    border-bottom: 1px solid black;
+}
+
+.Info a:hover {
+    opacity: 0.9;
+    color: rgb(0, 0, 0);
+}
 
 body{
     background-color: #f1f1f1;
