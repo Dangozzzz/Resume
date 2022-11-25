@@ -18,6 +18,20 @@ body {
     
 }
 
+.off-set{
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+
+}
+
+.off-set h1 {
+    font-size: 40px;
+     padding-top: 80px;
+    padding-left: 100px;
+    /* text-align: center; */
+    /* align-items: center; */
+}
 
 .Info h2 {    
     width: 200px;
@@ -34,7 +48,16 @@ body {
     background-color: aliceblue;
 }
 
+.Info {
+    display: grid;
+    grid-template-columns: 420px;
+    background-color: rgb(127, 192, 248);
 
+    border-right: 3px solid rgb(87, 87, 87);
+    border-bottom: 3px solid rgb(87, 87, 87);;
+
+
+}
 
 .Info h2:hover {
     opacity: 0.9;
@@ -157,7 +180,7 @@ td{
     font-size: 20px;
 }
 .footer-1:hover {
-    background-image:url(Img/1241__87070.1440204945.1280.1280.jpg);
+    background-image:url(/Img/1241__87070.1440204945.1280.1280.jpg);
     background-size: cover;
     border: 5px solid black;
     border-radius: 50px;
