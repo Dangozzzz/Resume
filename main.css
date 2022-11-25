@@ -18,6 +18,21 @@ body {
     
 }
 
+.Info h2 {    
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 110px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
 .off-set{
     display: flex;
     justify-content: flex-start;
@@ -48,16 +63,7 @@ body {
     background-color: aliceblue;
 }
 
-.Info {
-    display: grid;
-    grid-template-columns: 420px;
-    background-color: rgb(127, 192, 248);
 
-    border-right: 3px solid rgb(87, 87, 87);
-    border-bottom: 3px solid rgb(87, 87, 87);;
-
-
-}
 
 .Info h2:hover {
     opacity: 0.9;
