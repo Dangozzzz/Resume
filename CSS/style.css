@@ -18,33 +18,34 @@
 
 }
 
-.Info h2:hover {
-    opacity: 0.9;
-    background-color: #0a9405;
-   
-    
-}
-
-.Info h3 {
-    padding-top: 30px;
+.Info h2 {    
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 110px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
     align-items: center;
     text-align: center;
+    font-size: 25px;
     text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: aliceblue;
 }
 
-.Info a {
-    align-items: center;
-    text-align: center;
-    margin:20px 100px 0px 100px;
-    /* padding-top: 10px; */
-    text-decoration: none;
-    color: rgb(110, 92, 92);
-    border-bottom: 1px solid black;
+.off-set{
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+
 }
 
-.Info a:hover {
-    opacity: 0.9;
-    color: rgb(0, 0, 0);
+.off-set h1 {
+    font-size: 40px;
+     padding-top: 80px;
+    padding-left: 100px;
+    /* text-align: center; */
+    /* align-items: center; */
 }
 
 body{
