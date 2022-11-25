@@ -31,12 +31,10 @@
     border: 1px solid black;
     border-radius: 100px;
     background-color: aliceblue;
+    font-size: 30px;
 }
 
-.off-set{
-    display: flex;
-    justify-content: flex-start;
-    /* flex-direction: column; */
+
 
 }
 
