@@ -19,8 +19,9 @@ body {
 }
 
 .off-set{
-    display: flex;
-    justify-content: flex-start;
+    width:30%;
+/*     display: flex; */
+/*     justify-content: flex-start; */
     /* flex-direction: column; */
 
 }
